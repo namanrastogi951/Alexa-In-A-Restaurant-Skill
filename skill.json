@@ -1,0 +1,159 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hotel restaurant",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "FoodIntent",
+          "slots": [],
+          "samples": [
+            "what is the menu",
+            "open menu",
+            "what is there in the menu",
+            "please tell me the menu",
+            "what all do you serve"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "DirectionIntent",
+          "slots": [
+            {
+              "name": "direct",
+              "type": "AMAZON.Director"
+            }
+          ],
+          "samples": [
+            "Which way is the {direct}"
+          ]
+        },
+        {
+          "name": "DishMadeIntent",
+          "slots": [
+            {
+              "name": "xyz",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "samples": [
+            "tell me the receipy of {xyz}",
+            "how was {xyz} made"
+          ]
+        },
+        {
+          "name": "ManagerIntent",
+          "slots": [],
+          "samples": [
+            "i wanted to talk to the manager",
+            "Where is the manager"
+          ]
+        },
+        {
+          "name": "PriceIntent",
+          "slots": [
+            {
+              "name": "x",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "samples": [
+            "What is the price of {x}"
+          ]
+        },
+        {
+          "name": "MusicIntent",
+          "slots": [],
+          "samples": [
+            "play a song",
+            "play music"
+          ]
+        },
+        {
+          "name": "SpecialityIntent",
+          "slots": [],
+          "samples": [
+            "is there some thing special here",
+            "what is the speciality of this restaurant"
+          ]
+        },
+        {
+          "name": "TodaySpecialtyIntent",
+          "slots": [
+            {
+              "name": "day",
+              "type": "AMAZON.DayOfWeek"
+            }
+          ],
+          "samples": [
+            "What is {day} Special"
+          ]
+        },
+        {
+          "name": "ComplainIntent",
+          "slots": [],
+          "samples": [
+            "i have a complain",
+            "i wanted to complain"
+          ]
+        },
+        {
+          "name": "OwnerIntent",
+          "slots": [],
+          "samples": [
+            "who is the owner of this restaurant"
+          ]
+        },
+        {
+          "name": "NameIntent",
+          "slots": [],
+          "samples": [
+            "What is the name of this restaurant"
+          ]
+        },
+        {
+          "name": "EventIntent",
+          "slots": [],
+          "samples": [
+            "deatils about organizing event",
+            "give me details about organizing an event"
+          ]
+        },
+        {
+          "name": "StartersSnacksIntent",
+          "slots": [],
+          "samples": [
+            "what are the snacks available",
+            "snacks",
+            "what snacks do you give"
+          ]
+        },
+        {
+          "name": "AboutRestIntent",
+          "slots": [],
+          "samples": [
+            "something about this restaurant",
+            "about this restaurant",
+            "tell me about this restaurant"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "21"
+}
